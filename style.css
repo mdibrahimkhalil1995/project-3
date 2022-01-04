@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: ;
+    box-sizing: border-box;
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+}
+.sec-1{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 50%;
+}
+.portfolio-introduction{
+    display: flex;
+    align-items: center;
+}
+
+.introduction-content span{
+    color: rgb(255, 94, 0);
+}
+.portfolio-image img{
+    width: 60%;
+    margin-left: 200px;
+}
+
+.introduction-content{
+    margin-left: 200px;
+}
+.introduction-content h1{
+    font-size: 50px;
+}
+.introduction-content h3{
+    margin-top: 50px;
+}
+.introduction-content p{
+    margin-top: 10px;
+    text-align: justify;
+}
+.introduction-content a{
+    text-decoration: none;
+}
+
+
+.portfolio-experience{
+    display: flex;
+    align-items: center;
+}
+
+.introduction-experience-content{
+
+}
+.introduction-experience-content h1{
+    font-size: 35px;
+}
+
+.introduction-experience-content button{
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(255, 94, 0);
+    border-radius: 5px;
+}
+.introduction-experience-content button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.portfolio-experience-image img{
+    width: 60%;
+}
+.introduction-experience-content p{
+    text-align: justify;
+    margin-top: 10px;
+}
+.introduction-experience-content h3{
+    margin-top: 25px;
+}
+
+.introduction-experience-content a{
+    text-decoration: none;
+}
+
+.experience-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.full-stack-developer{
+    width: 450px;
+    height: 300px;
+    background-color: rgb(241, 240, 240);
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+#border-gradient{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+
+#border-gradient-1{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, rgb(0, 234, 255));
+    border-image-slice: 1;
+}
+#border-gradient-2{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+.footer-section{
+    background-color: gray;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
